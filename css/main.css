@@ -1,0 +1,124 @@
+#format-btns {
+  display: flex;
+  margin-top: 5px;
+}
+
+#format-btns .btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-right: 5px;
+}
+
+div[contenteditable="true"] {
+  height: auto;
+  min-height: 100px;
+}
+
+.card-body #header > div > div {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.valueLine {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+}
+
+#topicos #topicosList > div[class^="col"],
+#topicos #topicosList > div[class*=" col"],
+#equipa #equipaList > div[class^="col"],
+#equipa #equipaList > div[class*=" col"],
+#confianca-topicos #confiancaList > div[class^="col"],
+#confianca-topicos #confiancaList > div[class*=" col"],
+#faqsPergList > div[class^="col"],
+#faqsPergList > div[class*=" col"],
+#ppList > div[class^="col"],
+#ppList > div[class*=" col"],
+#tcList > div[class^="col"],
+#tcList > div[class*=" col"],
+#formacoesList > div[class^="col"],
+#formacoesList > div[class*=" col"],
+#slides > div[class^="col"],
+#slides > div[class*=" col"],
+#postsList > div[class^="col"],
+#postsList > div[class*=" col"],
+#destaquesList > div[class^="col"],
+#destaquesList > div[class*=" col"]{
+  max-height: 100px;
+  overflow: hidden;
+  /* padding: 0; */
+}
+
+div[class^="col"],
+div[class*=" col"] {
+  padding: 5px;
+}
+
+.pg {
+  font-size: 0.9rem;
+}
+
+.small-btn {
+  display: inline-block;
+  pointer-events: none;
+  transform: scale(0.6);
+  transform-origin: left;
+}
+
+.green {
+  color: #1cc88a;
+  font-weight: bold;
+}
+
+.red {
+  color: #e74a3b;
+  font-weight: bold;
+}
+
+.order-btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order-btns > div {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.format {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-right: 5px;
+}
+
+iframe {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  top: 0;
+  left: 0;
+}
+
+.note-editable {
+  min-height: 100px !important;
+  max-height: 200px !important;
+  overflow: auto !important;
+}
+
+.erro {
+  color: red;
+}
